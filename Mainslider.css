@@ -1,0 +1,45 @@
+.Slider{
+    width: 99%;
+    margin: auto;
+    margin-top: 14px;
+    height: 270px;
+    /* display: flex;
+    overflow-y: scroll; */
+}
+.la{
+    position: relative;
+    height: 110px;
+    width: 40px;
+    /* background-color: rgb(240, 240, 235); */
+    margin-top: -180px;
+    margin-left: 5px;
+    z-index: 1;
+}
+.ra{
+    float: right;
+    position: relative;
+    height: 110px;
+    width: 40px;
+    /* background-color: rgb(240, 240, 235); */
+    margin-top: -120px;
+    margin-right: 17px;
+    z-index: 1;
+}
+.la img{
+    height: 50px;
+    width: 50px;
+}
+.ra img{
+    transform: rotate(-180deg);
+    height: 50px;
+    width: 50px;
+}
+.ra button ,.la button{
+    border: none;
+    border-radius:  10px 10px;
+    cursor:unset;
+}
+/* .main{
+     height: 5000px;
+     background-color: rgb(62, 154, 216);
+} */

@@ -1,0 +1,36 @@
+.subnav{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(212, 210, 210);
+}
+.subnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.subnav ul li{
+    padding: 0px 35px;
+}
+.subnav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.subnav ul li a:hover{
+    color: blue;
+}
+.subnav ul li a{
+    margin: 0;
+    display: block;
+    height: 120px;
+    width: 70px;
+    text-decoration: none;
+    text-align: center;
+}
+.subnav ul li a img{
+    margin-top: 5px;
+    height: 70px;
+    width: 70px;
+}

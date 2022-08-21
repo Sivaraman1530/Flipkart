@@ -1,0 +1,137 @@
+.topnav{
+     height: 55px;
+     width: 100%;
+     background-color: rgb(89, 112, 247);
+     position:sticky;
+     z-index: 1;
+     top: 0;
+     left: 0;
+}
+.topnav ul{
+     list-style: none;
+     display: flex;
+}
+.logo{
+     width: 72px;
+     height: 55px;
+     margin-left: 160px;
+}
+.logo1{
+     height: 30px;
+     margin-top: 4px;
+}
+.logo1 span{
+     font-size:20px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo2{
+     margin-top: -10px;
+}
+.logo2 a{
+     text-decoration: none;
+}
+.logo2 span{
+     font-family: Arial, Helvetica, sans-serif;
+}
+.logo2 a:hover{
+   text-decoration: underline;
+   text-decoration-color: white;
+}
+.search{
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.search input{
+     width: 530px;
+     height: 35px;
+     border: none;
+     outline: none;
+     padding-left: 17px;
+     font-size: 13px;
+}
+.searchbtn{
+     margin-top: 10px;
+}
+.searchbtn button{
+     width: 30px;
+     height: 35px;
+     background-color: white;
+     color: rgb(116, 116, 240);
+     font-size: 15px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: none;
+     outline: none;
+}
+.login{
+     margin-top: 12px;
+     margin-left: 67px;
+}
+.login button{
+     width: 120px;
+     height: 30px;
+     background-color: white;
+     color: rgb(116, 116, 240);
+     font-size: 15px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: none;
+     outline: none;
+}
+.menu{
+     margin-top: 12px;
+     margin-left: 30px;
+}
+.menu button{
+     width: 70px;
+     height: 30px;
+     background-color: rgb(89, 112, 247);
+     color: white;
+     font-size: 16px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: none;
+     outline: none;
+}
+.menu:hover #arrow{
+     transform: rotate(-180deg);
+     transition-duration: 0.5s;
+}
+.more{
+     position: relative;
+     display: inline-block;
+}
+.dropdown-content {
+     display: none;
+     /* visibility: hidden; */
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 2;
+   }
+   
+.dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+.dropdown-content a:hover {background-color: #f1f1f1}
+   
+.menu:hover .dropdown-content{
+     display: block;
+     /* visibility: visible; */
+ }
+.cart{
+     margin-top: 12px;
+     margin-left: 30px;
+}
+.cart button{
+     width: 65px;
+     height: 30px;
+     background-color: rgb(89, 112, 247);
+     color: white;
+     font-size: 16px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: none;
+     outline: none;
+}
